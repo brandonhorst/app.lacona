@@ -244,8 +244,7 @@ section.details {
 
 footer {
   text-align: center;
-  background-color: rgb(48,45,40);
-  color: #a5c3ed;
+  color: rgba(255,255,255,0.7);
 }
 
 .details h4 {
