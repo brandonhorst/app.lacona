@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Untitled 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="www-hero" transform="translate(0.000000, 1.000000)">
+            <g id="Group" transform="translate(3.000000, 0.000000)" stroke="#F7BE2B" stroke-width="2">
+                <line x1="16.0053763" y1="16.0053763" x2="18" y2="18" id="Lens-Handle" stroke-linecap="round"></line>
+                <circle id="Oval" cx="9" cy="9" r="9"></circle>
+            </g>
+            <path d="M3.06636569,15.4193703 L0.719400042,16.5 L0,14.9442295 L2.17138449,13.9447741 C2.43157046,14.4609251 2.73121864,14.9537783 3.06636569,15.4193703 Z M6.80798623,4.30492197 L17,9 L6.80889713,13.6960845 C6.41926647,13.2656482 6.08242384,12.7865312 5.80858294,12.2689473 L12.9036769,9.0008567 L5.80858294,5.73105265 C6.08221042,5.21387219 6.41874146,4.73509868 6.80798623,4.30492197 Z M0.719400042,1.5 L3.06565203,2.5816213 C2.730577,3.04722195 2.43099907,3.54007744 2.17088082,4.05622516 L0,3.05577046 L0.719400042,1.5 Z" id="Combined-Shape" fill="#F7BE2B" fill-rule="nonzero"></path>
+            <path d="M7.65390378,3.5122548 L19,9 L7.6529,14.486949 C6.6428943,13.6856823 5.85924736,12.6114465 5.41345629,11.3757388 L10.3274595,9 L5.41381864,6.62325701 C5.85981966,5.38756224 6.64368714,4.31338907 7.65390378,3.5122548 Z" id="Combined-Shape" fill="#F7BE2B" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
