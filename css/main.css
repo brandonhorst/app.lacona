@@ -233,6 +233,7 @@ header p a {
 
 section.explanation p {
   /*font-size: 90%;*/
+  text-align: center;
 }
 
 section.screenshot, section.explanation, section.features {
