@@ -203,10 +203,12 @@ header, section, footer {
 header {
   background-color: rgb(48,45,40);
   text-align: center;
+  padding: 4em 0;
 }
 header h1 {
   margin: 0;
   color: rgba(255,255,255,1);
+  padding-top: 1em;
 }
 header h1 .os {
   font-weight: 200;
@@ -216,6 +218,7 @@ header h2 {
   margin: 0 0 1em 0;
   color: rgba(255,255,255,0.7);
   font-weight: 200;
+  padding-bottom: 1em;
 }
 header h2 .em {
   /*color: rgba(255,255,255);*/
