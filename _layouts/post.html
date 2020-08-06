@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="box">
+	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+	<div class="postDate">{{ page.date | date: "%b %-d, %Y" }}</div>
+	<div class="postAuthor">{{ page.author }}</div>
+	<div class="postContent">{{ page.content }}</div>
+</div>
+
+<footer>
+	<div class="box">
+		&copy; Brandon Horst 2020 - All rights reserved
+		<br />
+		<a href="/terms">Terms of Use</a> - <a href="/privacy">Privacy Policy</a>
+	</div>
+</footer>
