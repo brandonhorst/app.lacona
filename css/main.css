@@ -27,7 +27,6 @@ a {
   max-width: 50em;
   padding-left: 2em;
   padding-right: 2em;
-  clear: both;
 }
 
 nav { 
@@ -40,6 +39,12 @@ nav h1 {
   margin-bottom: 0.4em;
   margin-top: 0;
   text-align: left;
+  padding-left: 55px;
+
+  background-image: url("/img/AppIconw128.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 50px;
 }
 nav a {
   text-decoration: none;
@@ -57,46 +62,52 @@ nav li {
   padding: 0 0.5em;
 }
 
-.half-box {
+.halved {
   margin: 0 auto;
-  width: 368px;
-  padding-left: 400px;
-  clear: both;
+  display: flex;
 }
 
-.half-box nav ul {
-  float: none;
+.left-box, .right-box {
+  width: 50%;
+  align-self: center;
 }
+
+.left-box {
+  order: 1;
+}
+.right-box {
+  order: 2;
+}
+
+.screen {
+  object-fit: cover;
+  height: 515px;
+}
+
+.left-box.screen {
+  object-position: left center;
+}
+.right-box.screen {
+  object-position: right center;
+}
+
 .hero {
-  padding-top: 120px;
   padding-bottom: 20px;
-  height: 580px;
   text-align: center;
-  position: relative;
 }
-header h1 {
+.hero h1 {
   margin: 0;
+  padding: 0;
   color: rgba(0,0,0,1);
-  padding-top: 1em;
 }
-header h1 .os {
+.hero h1 .os {
   font-weight: 200;
   color: rgba(0,0,0,0.7);
 }
-header h2 {
+.hero h2 {
   margin: 0 0 1em 0;
   color: rgba(0,0,0,0.7);
   font-weight: 200;
-  padding-bottom: 1em;
-}
-header h2 .em {
-}
-header p {
-  color: rgba(0,0,0,0.7);
-  font-weight: 200;
-}
-header p a {
-  color: inherit;
 }
 
 footer {
@@ -106,7 +117,7 @@ footer {
   padding-bottom: 1em;
 }
 
-.highlight, .lowlight, .screen {
+.highlight, .lowlight {
   position: fixed;
   top: 0;
   margin: 0;
@@ -128,17 +139,6 @@ footer {
   z-index: -1;
 }
 
-.screen {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size:  892px 599px;
-  background-position: calc(50% + 40px) 100px;
-  z-index: -2;
-}
-
-.sentence {
-  height: 300px;
-}
 .sentence h3 {
   font-size: 20pt;
 }
@@ -162,29 +162,24 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+  .box {
+    border-bottom: 1px solid red;
+    padding: 0;
+  }
+
   .highlight, .lowlight {
     display: none;
   }
 
+  .halved {
+    display: block;
+  }
+
+  .left-box, .right-box {
+    width: 100%;
+  }
+
   .screen {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-    position: static;
-    height: 599px;
-    background-position: 40px top;
-  }
-
-  .half-box {
-    max-width: 728px;
-    width: inherit;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .sentence {
-    height: inherit;
-    padding-left: 40px;
-    padding-right: 40px;
   }
 
   .hero {
@@ -193,7 +188,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
   .site-name {
     display: none;
   }
@@ -209,3 +204,4 @@ footer {
     border: none;
   }
 }
+*/
