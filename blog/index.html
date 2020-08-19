@@ -4,9 +4,9 @@ layout: default
 
 <div class="box">
 {% for post in site.posts %}
-	<h2><a href="{{ post.url }}">{{ post.title}}</a></h2>
+	<h3 class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 	<div class="postDate">{{ post.date | date: "%b %-d, %Y" }}</div>
-	<div class="postAuthor">{{ page.author }}</div>
+	<div class="postAuthor">{{ post.author }}</div>
 	<div class="postContent">{{ post.content }}</div>
 {% endfor %}
 </div>
