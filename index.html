@@ -8,7 +8,7 @@ title: Don't just search. Command.
     <h2>Don't just search. <span class="em">Command</span>.</h2>
     <div class="buttons">
       <a href="https://apps.apple.com/us/app/lacona/id1495926282?mt=12"><img src="img/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" /></a>
-      <div class="available-on-setapp-235" style="display: inline-block"></div>
+      <!--<div class="available-on-setapp-235" style="display: inline-block"></div>-->
     </div>
     <img class="screen" src="/img/1-web.png" />
     <p>Open Lacona with a keystroke and <strong>type anything</strong>. Launch apps and find your files instantly.</p>
@@ -33,7 +33,7 @@ title: Don't just search. Command.
   <h3>Incredible <strong>Integrations</strong></h3>
   <img class="screen" src="/img/4-web.png" />
   <p>Search and command <strong>Things</strong>, <strong>Ulysses</strong>, <strong>Soulver</strong>, and more of the best Mac apps.</p>
-  <p>Supercharge your favorite tools.</p>
+  <p>Supercharge your favorite tools. <em>Coming Aug 31</em>.</p>
 
 </section>
 
@@ -44,24 +44,30 @@ title: Don't just search. Command.
 </section>
 
 <section class="box detail features" id="features">
-  <h3>All Features</h3>
+  <h3>Features</h3>
   <ul>
-    <li>Launch and activate apps</li>
-    <li>Search and open system preferences</li>
-    <li>Search, navigate, open, and show files</li>
-    <li>Move, duplicate, and delete files</li>
-    <li>Eject drives</li>
+    <li>Search and launch apps</li>
+    <li>Search system preferences</li>
+    <li>Search, navigate, reveal, move, duplicate, and delete files</li>
+    <li>Search and eject drives</li>
     <li>Open URLs</li>
     <li>Perform web searches</li>
-    <li>Math, unit conversions, currency conversions, time zone math, and more (powered by <a href="https://soulver.app">Soulver</a>)</li>
-    <li>Search and open contacts</li>
-    <li>Search, open, and create, and delete calendar events</li>
-    <li>Search, open, and create, and complete reminders</li>
-    <li>Search and open reminder lists</li>
-    <li>Open Calendar to particular dates</li>
-    <li>Make calls (FaceTime or iPhone)</li>
-    <li>Send messages (iMessage or SMS)</li>
+    <li>Perform math calculations, unit conversions, currency conversions, time zone math, and more (powered by <a href="https://soulver.app">Soulver</a>)</li>
+    <li>Search your contacts in Contacts</li>
+    <li>Search, create, and delete your events in Calendar</li>
+    <li>Search, create, and complete your reminders in Reminders</li>
+    <li><em>[Aug 31]</em> Search, create, and delete your notes in Notes</li>
+    <li><em>[Aug 31]</em> Search and play your music in Music</li>
+    <li><em>[Aug 31]</em> Search nearby locations on Maps</li>
+    <li>Make calls (using FaceTime or a connected iPhone)</li>
+    <li>Send messages (iMessage or SMS with connected iPhone)</li>
     <li>Send emails</li>
+    <li><em>[Aug 31]</em> Search, create, and complete your to-dos in Things</li>
+    <li><em>[Aug 31]</em> Search, create, and delete your sheets in Ulysses</li>
+    <li><em>[Aug 31]</em> Prevent your Mac from sleeping with Lungo</li>
+    <li><em>[Aug 31]</em> Add files and text to Yoink</li>
+    <li><em>[Aug 31]</em> Tweet on Twitter</li>
+    <li>...and more!</li>
   </ul>
 </section>
 
@@ -70,12 +76,15 @@ title: Don't just search. Command.
   <br />
   <a href="/terms">Terms of Use</a> - <a href="/privacy">Privacy Policy</a>
 </footer>
-
-<!--   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script>window.jQuery.fn.slick || document.write('<script type="text/javascript" src="js/vendor/slick.min.js"><\/script>')</script>
--->
+<script>
+  var hash = window.location.hash.substr(1);
+  if (hash === "privacy") {
+    window.location.href = "/privacy";
+  } else if (hash === "terms") {
+    window.location.href = "/terms"
+  }
+</script>
+<!--
 <script>
   window._setappBtn = window._setappBtn || [];
   window._setappBtn.push({
@@ -86,4 +95,5 @@ title: Don't just search. Command.
   });
 </script>
 <script src='https://developer.setapp.com/setapp-button/setapp.js'></script>
+-->
 <script src="/js/main.js"></script>

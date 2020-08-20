@@ -3,6 +3,13 @@ layout: page
 title: Frequently Asked Questions
 ---
 
+### How do I use Lacona?
+
+Lacona is designed to be powerful, but easy-to-use. Check out the [Usage Guide](/guide) for useful tips.
+
+
+---
+
 ### What is Lacona Pro? {#pro}
 
 Lacona Pro unlocks new features, including integrations with great 3rd-party Mac apps. It is available for a small subscription which supports continued Lacona development.
