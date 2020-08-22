@@ -71,3 +71,10 @@ If it exposes a good API, maybe! Contact Brandon at [suggestions@lacona.app](mai
 
 Because of Lacona's advanced natural language processing, translation is more difficult than most apps. I do want to eventually support non-English languages, but my first priority is making Lacona a premier English experience.
 
+---
+
+### I was using a a Lacona 1 feature that Lacona 2 doesn't have yet {#missing-feature}
+
+While Lacona 2 has many improvements over Lacona 1, there are a few features that haven't yet made the jump. If this is breaking your workflow, you can download Lacona 1 [here](https://download.lacona.io/packages/latest/Lacona.zip). Note that Lacona 1 is no longer being developed or supported, and it may break at any time!
+
+If you [let me know](mailto:brandonhorst@lacona.app?subject=Lacona%202%20is%20missing%20a%20feature) which necessary feature you are missing, I can send you a free Lacona 1 license.
