@@ -77,4 +77,4 @@ Because of Lacona's advanced natural language processing, translation is more di
 
 While Lacona 2 has many improvements over Lacona 1, there are a few features that haven't yet made the jump. If this is breaking your workflow, you can download Lacona 1 [here](https://download.lacona.io/packages/latest/Lacona.zip). Note that Lacona 1 is no longer being developed or supported, and it may break at any time!
 
-If you [let me know](mailto:brandonhorst@lacona.app?subject=Lacona%202%20is%20missing%20a%20feature) which necessary feature you are missing, I can send you a free Lacona 1 license.
+If you were using Lacona 1 via Setapp, [let me know](mailto:brandonhorst@lacona.app?subject=Lacona%202%20is%20missing%20a%20feature) which necessary feature you are missing, I can send you a free Lacona 1 license.
