@@ -3,13 +3,6 @@ layout: page
 title: Frequently Asked Questions
 ---
 
-### How do I use Lacona?
-
-Lacona is designed to be powerful, but easy-to-use. Check out the [Usage Guide](/guide) for useful tips.
-
-
----
-
 ### What is Lacona Pro? {#pro}
 
 Lacona Pro unlocks new features, including integrations with great 3rd-party Mac apps. It is available for a small subscription which supports continued Lacona development.
@@ -68,12 +61,13 @@ Here is an unordered Roadmap, which is liable to change.
 
 ---
 
-### Can you integrate with _\[App/Service\]_?  {#integrations}
+### Can you integrate with _\<App/Service\>_?  {#integrations}
 
 If it exposes a good API, maybe! Contact Brandon at [suggestions@lacona.app](mailto:suggestions@lacona.app) and we'll hash it out.
 
 ---
 
-### When will you support _\[Language\]_? {#internationalization}
+### When will you support _\<Language\>_? {#internationalization}
 
-Because of Lacona's natural language functionality, translation is more difficult than most apps. I do want to eventually support non-English languages, but my first priority is making Lacona a first-class English experience.
+Because of Lacona's advanced natural language processing, translation is more difficult than most apps. I do want to eventually support non-English languages, but my first priority is making Lacona a premier English experience.
+
