@@ -83,63 +83,40 @@ nav li {
 nav li:before {
   display: none;
 }
-
-.buttons {
-  margin-top: 1em;
-  margin-bottom: 1em;
+nav .contact img {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+}
+nav .contact {
+  opacity: 0.5
+}
+nav .contact:hover {
+  opacity: 0.8
 }
 
-.screen {
-  width: 100%;
-  max-height: 550px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+h1 a, h2 a, h3 a {
+  text-decoration: none;
 }
-
-.hero {
-  padding-bottom: 20px;
-  text-align: center;
-}
-.hero h1 {
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-  color: rgba(0,0,0,1);
-  font-size: 28pt;
-}
-.hero h1 .os {
-  font-weight: 200;
-}
-.hero h2 {
-  margin: 0 0 1em 0;
-  font-weight: 200;
-  font-size: 20pt;
+h1 a:hover, h2 a:hover, h3 a:hover {
+  text-decoration: underline;
 }
 
 h2 {
-  text-align: center;
-  font-weight: 200;
   font-size: 24pt;
+  text-align: center;
 }
 
 h3 {
-  text-align: center;
-  font-weight: 200;
   font-size: 20pt;
 }
 
-h3 strong {
-  font-weight: 700;
-}
-
 h4 {
-  font-weight: 200;
   font-size: 16pt;
 }
 
 h5 {
-  font-weight: 200;
   font-size: 14pt;
 }
 
@@ -147,17 +124,16 @@ p {
   line-height: 1.7em;
 }
 
-.detail p {
-  text-align: center;
-}
-
 footer {
   text-align: center;
-  font-size: 90%;
   margin-top: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+footer div {
+  font-size: 10pt;
 }
 
 ul {
@@ -175,29 +151,98 @@ li:before {
   padding-right: 8px;
   color: rgb(0, 0, 0, 0.4);
 }
-
+/*
 .post {
   margin-bottom: 6em;
 }
 
-.postTitle {
-  margin-bottom: 0;
-}
-.postTitle a {
-  text-decoration: none;
-}
-.postTitle a:hover {
-  text-decoration: underline;
-}
 .postAuthor {
   text-align: center;
 }
 .postDate {
   text-align: center;
-}
+}*/
 code {
   display: inline-block;
 }
 hr {
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.landing .buttons {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.landing .screen {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.landing .hero {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.landing .hero h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: rgba(0,0,0,1);
+  font-size: 28pt;
+}
+.landing .hero h1 .os {
+  font-weight: 200;
+}
+.landing .hero h2 {
+  margin: 0 0 1em 0;
+  font-weight: 200;
+  font-size: 20pt;
+}
+
+.landing h3 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 20pt;
+}
+
+.landing h3 strong {
+  font-weight: 700;
+}
+
+.landing .detail p {
+  text-align: center;
+}
+
+.post .date {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  padding-right: 7px;
+  font-style: italic;
+}
+.post .title {
+  display: inline-block;
+}
+.post .content {
+  padding-left: 137px;
+}
+
+@media all and (max-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .post .date {
+    display: block;
+    text-align: left;
+  }
+  .post h2.title {
+    margin-top: 3px;
+  }
+  .post .content {
+    padding: 0;
+  }
 }

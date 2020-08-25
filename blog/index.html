@@ -1,20 +1,16 @@
 ---
 layout: default
+title: Blog
 ---
 
 <div class="box">
-{% for post in site.posts %}
-	<h3 class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-	<div class="postDate">{{ post.date | date: "%b %-d, %Y" }}</div>
-	<div class="postAuthor">{{ post.author }}</div>
-	<div class="postContent">{{ post.content }}</div>
-{% endfor %}
+	{% for post in site.posts %}
+		<div class="post">
+			<div class="metadata">
+				<div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
+				<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			</div>
+			<div class="content">{{ post.content }}</div>
+		</div>
+	{% endfor %}
 </div>
-
-<footer>
-	<div class="box">
-		&copy; Brandon Horst 2020 - All rights reserved
-		<br />
-		<a href="/terms">Terms of Use</a> - <a href="/privacy">Privacy Policy</a>
-	</div>
-</footer>
