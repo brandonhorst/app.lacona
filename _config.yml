@@ -1,6 +1,4 @@
 title: "Lacona Blog"
 description: "Updates about Lacona development, and general musings about natural language UX and Apple development."
-url: https://lacona.app/blog
+blogurl: https://lacona.app/blog
 author: Brandon Horst
-plugins:
-  - jekyll-feed
