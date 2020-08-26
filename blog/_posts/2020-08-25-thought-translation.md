@@ -23,7 +23,7 @@ Unlike voice interfaces, Lacona is **patient**. I don't need to know exactly wha
 
 Perhaps even more importantly, Lacona is **order-agnostic**; I can enter data in the order it comes to mind. Perhaps my spouse reminds me of a doctor visit that may not yet be on my calendar. I type "Doctor" into Lacona. As it returns no upcoming Calendar results, I determine that it must not be on my calendar. From there, I can press `return` to add "Doctor" to my [shelf](/guide#shelf). Perhaps then I want to add the date before it slips my mind, and add that to the shelf as well. Only then do I decide to use the "create event" command and select the appropriate calendar.
 
-<video controls="true" allowfullscreen="true">
+<video controls="true" allowfullscreen="true" poster="/img/posts/thoughts-poster.png">
 	<source src="/img/posts/thoughts.mp4" type="video/mp4">
 </video>
 
