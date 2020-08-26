@@ -14,3 +14,5 @@ If using Lacona via the Mac App Store, and you have opted-in to share informatio
 If using Lacona via Setapp, Setapp collects anonymized analytics data. See the [Setapp privacy policy](https://setapp.com/privacy-policy) for more details.
 
 This privacy policy may be altered and amended within reason from time to time to reflect the evolving nature of the software. By using Lacona, you agree to this privacy policy.
+
+This website ([lacona.app](https://lacona.app)) tracks basic analytics using Google Analytics.

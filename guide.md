@@ -3,7 +3,7 @@ layout: page
 title: Guide
 ---
 
-### Opening Lacona {#opening}
+## Opening Lacona {#opening}
 
 To open Lacona, you can use the *keyboard shortcut* defined in Lacona Preferences. By default, this keyboard shortcut is ⌥Space (that is, hold down Option/Alt and press the Spacebar).
 
@@ -11,7 +11,7 @@ You can change this keyboard shortcut from the Lacona Preferences.
 
 If you forgot the keyboard shortcut, you can open Lacona by clicking its icon in the Menu Bar.
 
-### Searching {#searching}
+## Searching {#searching}
 
 To search your data, simply open Lacona and start typing.
 
@@ -21,7 +21,7 @@ You can use your mouse or the arrow keys to select any result, the right side wi
 
 While a result is selected, pressing Return will add it to your [shelf](#shelf), so you can use it in commands. If you want to open the item immediately, you can [press ⌘↩](#shortcuts) (hold Command and press Return).
 
-### Commands {#commands}
+## Commands {#commands}
 
 Commands tell Lacona to perform actions. These start with a verb and contain one or more objects (e.g. "open Safari" or "search Google for Lacona").
 
@@ -35,7 +35,7 @@ At any time, you can press Tab, and Lacona will autocomplete your input and allo
 
 When there are no placeholders remaining in a Command, you can Execute the command by pressing Return.
 
-### Previews {#previews}
+## Previews {#previews}
 
 The right side of the Lacona window displays the *preview pane*, which shows additional details about the selected result.
 
@@ -43,7 +43,7 @@ For many results, the preview shows a list of *attributes*, which are additional
 
 If the command is filled in completely, you will see a *action message* in the bottom right corner. This indicates exactly what Lacona will do when you press Return.
 
-### The Shelf {#shelf}
+## The Shelf {#shelf}
 
 When you press Return on an object, it will stored on the *shelf*, which appears above the input bar.
 
@@ -51,7 +51,7 @@ Lacona will then display a number of [Commands](#commands) that you can use that
 
 To empty the shelf, press the Escape key or the small × on the left side.
 
-### Complex Commands {#complex-commands}
+## Complex Commands {#complex-commands}
 
 Some commands come in simple and more complex forms. For example, "open lacona.app" is a simple command, and "open lacona.app in Safari" is more complex. Both are equally valid commands.
 
@@ -61,7 +61,7 @@ Once you begin entering a command, the complex forms will be hidden and replaced
 
 You can press Tab to fully input a command and see all of the options.
 
-### Incomplete Results {#incompletes}
+## Incomplete Results {#incompletes}
 
 Sometimes, Lacona detects that you are typing an input that looks like it may turn out to be a certain type of object, but it isn't complete yet.
 
@@ -69,7 +69,7 @@ A good example of this is the query "call +1 342". Lacona can tell that you're t
 
 Because of this, Lacona shows an *incomplete result*, to let you know that it understands your input, but it's waiting for you to type more. This will be replaced with a normal result once you finish typing.
 
-### Matches vs Search Results {#matching}
+## Matches vs Search Results {#matching}
 
 When attempting to understand your input, Lacona has two different approaches, *matching* and *searching*.
 
@@ -83,7 +83,7 @@ This option exists for contacts, calendar events, reminders, notes, music, Thing
 
 Consider enabling this if you work with this data often, and you have less than 1,000 (or so) items.
 
-### Path Navigation {#path-navigation}
+## Path Navigation {#path-navigation}
 
 Instead of searching for files, you can also navigate your file system by Path, similarly to how it is done in Terminal.
 
@@ -91,7 +91,7 @@ To begin navigating files by path, start your input with "\~/" to begin from you
 
 You can also navigate files from the root directory ("/"), if you first [Grant Access to the Root Folder](/faq#files) first.
 
-### Shortcuts {#shortcuts}
+## Shortcuts {#shortcuts}
 
 You can jump to the top 10 results by pressing ⌘1 (for the first result) through ⌘0 (for the 10th result).
 
@@ -103,11 +103,11 @@ All of these shortcuts will be displayed on-screen when ⌘ is held.
 
 If you press ⌘↩ when selecting a result, it will perform the *primary action* for that result. Usually, this means opening the result (e.g. launching an app, opening a file, or showing a note). This action will be displayed in the [preview pane](#previews) when ⌘ is held.
 
-### Drag & Drop {#drag-drop}
+## Drag & Drop {#drag-drop}
 
 You can drag files and text onto the Lacona icon (in the Dock, Desktop, or in Finder) to automatically add them to the [shelf](#shelf). You can also drag them onto the Lacona icon in the Menu Bar.
 
-### URLs {#urls}
+## URLs {#urls}
 
 You can add text to the [shelf](#shelf) programmatically by opening the URL `lacona://x-callback-url/load?text=<your desired text>`.
 
