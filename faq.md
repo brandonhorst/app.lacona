@@ -29,7 +29,7 @@ None of your files will never leave your computer. For more details, see the [pr
 
 Here is an unordered Roadmap, which is liable to change.
 
-### Features
+#### Features
 
 - Look up dictionary definitions
 - Search and play Apple Music
@@ -37,19 +37,19 @@ Here is an unordered Roadmap, which is liable to change.
 - Run one-off shell scripts
 - Toggle system preferences (e.g. dark mode, wifi)
 
-### Integrations
+#### Integrations
 
 - Get translations from Google Translate
 - Search and open GitHub repositories
 - Search documentation in Dash
 - Search and play Spotify
 
-### Customization
+#### Customization
 
 - Custom Commands (with JavaScript)
 - IFTTT Integration
 
-### Accessibility
+#### Accessibility
 
 - VoiceOver support
 
