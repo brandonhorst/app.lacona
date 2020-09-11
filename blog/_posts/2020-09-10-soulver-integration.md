@@ -11,7 +11,7 @@ Of course, Lacona is great at quick calculations, but it goes way beyond that. I
 
 ---
 
-My wife and were daydreaming about moving farther out from Boston, since we're both working from home. Mortgage calculations are always a huge pain, but Lacona simplifies them dramatically
+My wife and were daydreaming about moving farther out from Boston, since we're both working from home. Mortgage calculations are always a huge pain, but Lacona simplifies them dramatically.
 
 ![monthly repayment on $312000 over 30 years at 3.75% + 175 hoa fees](/img/posts/soulver-1.png)
 
