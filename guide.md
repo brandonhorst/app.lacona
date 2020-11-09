@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Guide
+description: Lacona Guide
 ---
 
 ## Opening Lacona {#opening}

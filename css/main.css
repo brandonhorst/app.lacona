@@ -163,6 +163,11 @@ li:before {
 }*/
 code {
   display: inline-block;
+  background: #FFF7;
+  border: 1px solid #0002;
+  border-radius: 4px;
+  padding: 0 2px;
+  margin: -1px 0;
 }
 hr {
   border: 1px solid rgba(0, 0, 0, 0.1);

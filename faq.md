@@ -1,6 +1,7 @@
 ---
 layout: page
 title: FAQ
+description: Lacona FAQ
 ---
 
 ## What is Lacona Pro? {#pro}
@@ -25,17 +26,24 @@ For most users, granting access to the User Folder is sufficient. However, if yo
 
 None of your files will never leave your computer. For more details, see the [privacy policy](/privacy).
 
-## What are the future plans?  {#roadmap}
+## I hid the menu bar icon, how can I open the preferences? {#show-preferences}
 
-Here is an unordered Roadmap, which is liable to change.
+You can open the Lacona preferences by activating Lacona and pressing ⌘, (that is, hold the command key and press comma). You could also type "open Lacona Preferences" into Lacona itself.
+
+If you forgot the keyboard shortcut to activate Lacona, you can activate it by double-clicking the app itself in Finder, or running `open -a Lacona` in Terminal.
+
+## What are the future plans? {#roadmap}
+
+Here is an unordered Roadmap, which is liable to change. Some features may come by means of Addons due to Mac App Store limitations.
 
 #### Features
 
-- Look up dictionary definitions
+- Run system commands (e.g. sleep, restart, start screen saver)
 - Search and play Apple Music
+- Look up dictionary definitions
+- Toggle system preferences (e.g. wifi)
 - Search and run applescripts in the Scripts directory
-- Run one-off shell scripts
-- Toggle system preferences (e.g. dark mode, wifi)
+- Run one-off shell scripts in Terminal
 
 #### Integrations
 
@@ -43,10 +51,11 @@ Here is an unordered Roadmap, which is liable to change.
 - Search and open GitHub repositories
 - Search documentation in Dash
 - Search and play Spotify
+- Run one-off shell scripts in iTerm2
 
 #### Customization
 
-- Custom Commands (with JavaScript)
+- Addons (using Node.js)
 - IFTTT Integration
 
 #### Accessibility
@@ -61,7 +70,7 @@ If it exposes a good API, maybe! Contact Brandon at [suggestions@lacona.app](mai
 
 Because of Lacona's advanced natural language processing, translation is more difficult than most apps. I do want to eventually support non-English languages, but my first priority is making Lacona a premier English experience.
 
-## I was using a a Lacona 1 feature that Lacona 2 doesn't have yet {#missing-feature}
+## I was using a Lacona 1 feature that Lacona 2 doesn't have yet {#missing-feature}
 
 While Lacona 2 has many improvements over Lacona 1, there are a few features that haven't yet made the jump. If this is breaking your workflow, you can download Lacona 1 [here](https://download.lacona.io/packages/latest/Lacona.zip). Note that Lacona 1 is no longer being developed or supported, and it may break at any time!
 
