@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title:  Soulver Integration
+title: Soulver Integration
 ---
 
 Lacona has an incredible integration with [Soulver](https://soulver.app), allowing you to perform tons of natural-language calculations. This integration got even better with the latest release (2.3.1).

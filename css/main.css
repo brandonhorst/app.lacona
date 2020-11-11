@@ -136,20 +136,14 @@ footer div {
 }
 
 ul {
-  list-style: none;
+  /*list-style: none;*/
 }
 
 li {
-  padding-left: 8px;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
 }
 
-li:before {
-  content: "❯";
-  font-weight: 200;
-  margin-left: -12px;
-  padding-right: 8px;
-  color: rgb(0, 0, 0, 0.4);
-}
 /*
 .post {
   margin-bottom: 6em;
@@ -187,6 +181,13 @@ hr {
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.post video.no-border, .post img.no-border {
+  width: calc(100% + 100px);
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 -50px ;
 }
 
 .landing .hero {
@@ -236,6 +237,48 @@ hr {
 }
 .post .content {
   padding-left: 137px;
+}
+
+table.rowcol {
+  border-collapse: collapse;
+}
+
+table.rowcol tbody tr td:first-child, table.rowcol th {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+table.rowcol td, table.rowcol th {
+  padding: 10px;
+}
+
+table.rowcol td:not(:last-child), table.rowcol th:not(:last-child):not(:first-child):not(:nth-child(2)) {
+  border-right: 1px solid rgba(0, 0, 0, 0.025);
+  border-left: 1px solid rgba(0, 0, 0, 0.025);
+}
+
+table.rowcol tr:last-child td:first-child {
+  border-bottom-left-radius: 10px
+}
+
+table.rowcol tr:first-child td:first-child, table.rowcol tr:first-child th:nth-child(2) {
+  border-top-left-radius: 10px
+}
+
+table.rowcol tr:first-child th:last-child {
+  border-top-right-radius: 10px
+}
+table.rowcol tr:last-child td:last-child {
+  border-bottom-right-radius: 10px
+}
+
+table.rowcol thead th:first-child {
+  border: none;
+  background: none;
+}
+
+table.rowcol tr:nth-child(even) td:not(:first-child) {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 @media all and (max-width: 600px) {
