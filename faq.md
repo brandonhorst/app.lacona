@@ -62,6 +62,10 @@ Here is an unordered Roadmap, which is liable to change. Some features may come 
 
 - VoiceOver support
 
+#### Known Issues
+
+- Launch at Login is broken for some Setapp users
+
 ## Can you integrate with _\<App/Service\>_?  {#integrations}
 
 If it exposes a good API, maybe! Contact Brandon at [suggestions@lacona.app](mailto:suggestions@lacona.app) and we'll hash it out.
