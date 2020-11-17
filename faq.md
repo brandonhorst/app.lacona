@@ -58,9 +58,10 @@ Here is an unordered Roadmap, which is liable to change. Some features may come 
 - Addons (using Node.js)
 - IFTTT Integration
 
-#### Accessibility
+#### Accessibility & UX
 
 - VoiceOver support
+- Keyboard shortcuts for specific commands
 
 #### Known Issues
 
