@@ -67,7 +67,7 @@ Here is an unordered Roadmap, which is liable to change. Some features may come 
 
 #### Known Issues
 
-- Launch at Login is broken for some Setapp users
+- For ambiguous queries, "create reminder" and "create event" do not assume dates are in the future
 
 ## Can you integrate with _\<App/Service\>_?  {#integrations}
 
