@@ -52,6 +52,7 @@ Here is an unordered Roadmap, which is liable to change. Some features may come 
 - Search documentation in Dash
 - Search and play Spotify
 - Run one-off shell scripts in iTerm2
+- Search and create tasks in Todoist
 
 #### Customization
 
@@ -62,6 +63,7 @@ Here is an unordered Roadmap, which is liable to change. Some features may come 
 
 - VoiceOver support
 - Keyboard shortcuts for specific commands
+- Allow forcing input language
 
 #### Known Issues
 
