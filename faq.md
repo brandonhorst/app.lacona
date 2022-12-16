@@ -6,17 +6,17 @@ description: Lacona FAQ
 
 ## What is Lacona Pro? {#pro}
 
-Lacona Pro unlocks new features, including integrations with great 3rd-party Mac apps. It is available for a small subscription which supports continued Lacona development.
+Lacona Pro unlocks new features, including integrations with great 3rd-party Mac apps. It is available for a small subscription.
 
 Pro features are enabled automatically with Lacona is used via Setapp.
 
-## Why does Lacona ask for all these permissions?  {#permissions}
+## Why does Lacona ask for all these permissions? {#permissions}
 
 In order to search your data and allow you to run commands, Lacona needs permission. Without these permissions, Lacona will still work, but certain features will be automatically disabled.
 
 This data will never leave your computer. For more details, see the [privacy policy](/privacy).
 
-## What is File System Access?  {#files}
+## What is File System Access? {#files}
 
 Lacona needs permission in order to access your Files. This allows Lacona to [preview](/guide#previews) your file contents, and allows you to [navigate your files](/guide#path-navigation).
 
@@ -34,7 +34,7 @@ If you forgot the keyboard shortcut to activate Lacona, you can activate it by d
 
 ## What are the future plans? {#roadmap}
 
-Here is an unordered Roadmap, which is liable to change. Some features may come by means of Addons due to Mac App Store limitations.
+Lacona is not currently in active development. Hopefully that will change over time. If it does, here is an unordered Roadmap, which is liable to change. Some features may come by means of Addons due to Mac App Store limitations.
 
 #### Features
 
@@ -69,7 +69,7 @@ Here is an unordered Roadmap, which is liable to change. Some features may come 
 
 - For ambiguous queries, "create reminder" and "create event" do not assume dates are in the future
 
-## Can you integrate with _\<App/Service\>_?  {#integrations}
+## Can you integrate with _\<App/Service\>_? {#integrations}
 
 If it exposes a good API, maybe! Contact Brandon at [suggestions@lacona.app](mailto:suggestions@lacona.app) and we'll hash it out.
 
@@ -79,6 +79,4 @@ Because of Lacona's advanced natural language processing, translation is more di
 
 ## I was using a Lacona 1 feature that Lacona 2 doesn't have yet {#missing-feature}
 
-While Lacona 2 has many improvements over Lacona 1, there are a few features that haven't yet made the jump. If this is breaking your workflow, you can download Lacona 1 [here](https://download.lacona.io/packages/latest/Lacona.zip). Note that Lacona 1 is no longer being developed or supported, and it may break at any time!
-
-If you were using Lacona 1 via Setapp, [let me know](mailto:brandonhorst@lacona.app?subject=Lacona%202%20is%20missing%20a%20feature) which necessary feature you are missing, I can send you a free Lacona 1 license.
+While Lacona 2 has many improvements over Lacona 1, there are a few features that didn't make the jump. If this is breaking your workflow, you can download Lacona 1 [here](https://github.com/laconalabs/download.lacona.io/tree/master/public/packages/1.1.8). Note that Lacona 1 is no longer being developed or supported, and it may break at any time!
