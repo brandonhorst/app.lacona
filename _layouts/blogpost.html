@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>{{page.title}} - Lacona Blog</title>
@@ -15,55 +16,32 @@
   <meta property="og:title" content="Lacona Blog" />
   <meta property="og:description" content="{{ page.title }}" />
   <meta property="og:image" content="https://lacona.app/img/ogimg.png" />
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61643321-3"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-998752040"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    gtag('js', new Date());
-
-    gtag('config', 'UA-61643321-3');
-    gtag('config', 'AW-998752040');
-  </script>
-  <script>
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-        'send_to': 'AW-998752040/H5OuCKb92ugBEKj-ntwD',
-        'event_callback': callback
-    });
-    return false;
-  }
-  </script>
 </head>
-	<body>
-    <nav class="box">
-      <h1 class="site-name"><a href="/">Lacona</a> <a href="/blog">Blog</a></h1>
-      <ul>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/guide">Guide</a></li>
-        <li><a href="/faq">FAQ</a></li>
-        <li><a class="contact" href="https://twitter.com/lacona"><img src="/img/twitter-30.png" /></a></li>
-        <li><a class="contact" href="mailto:support@lacona.app"><img src="/img/letter-30.png"></a></li>
-      </ul>
-    </nav>
-	<div class="box">
-		<div class="post">
-			<div class="metadata">
-				<div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
-				<h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-			</div>
-			<div class="content">{{ page.content }}</div>
-		</div>
-	</div>
-	</body>
-  <footer class="box">
-      <div>&copy; Brandon Horst 2020 - All rights reserved</span>
-      <div><a href="/terms">Terms of Use</a> - <a href="/privacy">Privacy Policy</a></div>
-  </footer>
+
+<body>
+  <nav class="box">
+    <h1 class="site-name"><a href="/">Lacona</a> <a href="/blog">Blog</a></h1>
+    <ul>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/guide">Guide</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a class="contact" href="https://twitter.com/lacona"><img src="/img/twitter-30.png" /></a></li>
+      <li><a class="contact" href="mailto:support@lacona.app"><img src="/img/letter-30.png"></a></li>
+    </ul>
+  </nav>
+  <div class="box">
+    <div class="post">
+      <div class="metadata">
+        <div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
+        <h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+      </div>
+      <div class="content">{{ page.content }}</div>
+    </div>
+  </div>
+</body>
+<footer class="box">
+  <div>&copy; Brandon Horst 2022 - All rights reserved</span>
+    <div><a href="/terms">Terms of Use</a> - <a href="/privacy">Privacy Policy</a></div>
+</footer>
+
 </html>
